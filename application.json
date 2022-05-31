@@ -1,18 +1,4 @@
 {
-  "pages": [
-    {
-      "id": "Page3",
-      "isDefault": true
-    },
-    {
-      "id": "Page2",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
-      "isDefault": false
-    }
-  ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
@@ -21,5 +7,9 @@
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
+  "createdAt": {
+    "seconds": 1653987563,
+    "nanos": 5000000
+  },
   "deleted": false
 }

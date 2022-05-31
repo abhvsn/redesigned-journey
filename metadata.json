@@ -1,5 +1,71 @@
 {
   "clientSchemaVersion": 1,
-  "serverSchemaVersion": 5,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Page3",
+    "Page2",
+    "Page1"
+  ],
+  "publishedPageOrder": [
+    "Page3",
+    "Page2",
+    "Page1"
+  ],
+  "publishedDefaultPageName": "Page3",
+  "unpublishedDefaultPageName": "Page3",
+  "invisibleActionFields": {
+    "Page2_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page2_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Page2_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page2_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page2_userSetOnLoad": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Page3_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page3_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Page3_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page3_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
+  "publishedLayoutmongoEscapedWidgets": {
+    "Page2": [
+      "data_table"
+    ],
+    "Page3": [
+      "data_table"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Page2": [
+      "data_table"
+    ],
+    "Page3": [
+      "data_table"
+    ]
+  },
   "fileFormatVersion": 2
 }
