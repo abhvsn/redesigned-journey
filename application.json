@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Page3",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Page2",
@@ -10,7 +10,7 @@
     },
     {
       "id": "Page1",
-      "isDefault": true
+      "isDefault": false
     }
   ],
   "viewMode": false,
