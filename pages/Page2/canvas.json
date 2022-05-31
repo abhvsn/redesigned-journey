@@ -35,7 +35,7 @@
                       "dataType": "number",
                       "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.revenue))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                       "fieldType": "Number Input",
-                      "sourceData": 0,
+                      "sourceData": 76706000,
                       "isCustomField": false,
                       "accessor": "revenue",
                       "identifier": "revenue",
@@ -57,7 +57,7 @@
                       "dataType": "string",
                       "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.imdb_id))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                       "fieldType": "Text Input",
-                      "sourceData": "tt12816634",
+                      "sourceData": "tt0293429",
                       "isCustomField": false,
                       "accessor": "imdb_id",
                       "identifier": "imdb_id",
@@ -79,7 +79,7 @@
                       "dataType": "string",
                       "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.release_date, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                       "fieldType": "Datepicker",
-                      "sourceData": "2021-04-04",
+                      "sourceData": "2021-04-07",
                       "isCustomField": false,
                       "accessor": "release_date",
                       "identifier": "release_date",
@@ -175,16 +175,12 @@
                       "fieldType": "Array",
                       "sourceData": [
                         {
-                          "name": "Animation",
-                          "id": 16
+                          "name": "Action",
+                          "id": 28
                         },
                         {
-                          "name": "Comedy",
-                          "id": 35
-                        },
-                        {
-                          "name": "Family",
-                          "id": 10751
+                          "name": "Fantasy",
+                          "id": 14
                         },
                         {
                           "name": "Adventure",
@@ -214,7 +210,7 @@
                       "dataType": "number",
                       "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.vote_average))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                       "fieldType": "Number Input",
-                      "sourceData": 7.8,
+                      "sourceData": 7.6,
                       "isCustomField": false,
                       "accessor": "vote_average",
                       "identifier": "vote_average",
@@ -236,7 +232,7 @@
                       "dataType": "string",
                       "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.tagline))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                       "fieldType": "Text Input",
-                      "sourceData": "",
+                      "sourceData": "Get over here.",
                       "isCustomField": false,
                       "accessor": "tagline",
                       "identifier": "tagline",
@@ -258,7 +254,7 @@
                       "dataType": "string",
                       "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.title))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                       "fieldType": "Text Input",
-                      "sourceData": "Miraculous World: Shanghai – The Legend of Ladydragon",
+                      "sourceData": "Mortal Kombat",
                       "isCustomField": false,
                       "accessor": "title",
                       "identifier": "title",
@@ -280,7 +276,7 @@
                       "dataType": "number",
                       "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.vote_count))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                       "fieldType": "Number Input",
-                      "sourceData": 371,
+                      "sourceData": 2827,
                       "isCustomField": false,
                       "accessor": "vote_count",
                       "identifier": "vote_count",
@@ -302,7 +298,7 @@
                       "dataType": "string",
                       "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.poster_path))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                       "fieldType": "Text Input",
-                      "sourceData": "/msI5a9TPnepx47JUb2vl88hb80R.jpg",
+                      "sourceData": "/nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg",
                       "isCustomField": false,
                       "accessor": "poster_path",
                       "identifier": "poster_path",
@@ -324,7 +320,7 @@
                       "dataType": "string",
                       "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.homepage))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                       "fieldType": "Text Input",
-                      "sourceData": "",
+                      "sourceData": "https://www.mortalkombatmovie.net",
                       "isCustomField": false,
                       "accessor": "homepage",
                       "identifier": "homepage",
@@ -368,33 +364,29 @@
                   "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                   "fieldType": "Object",
                   "sourceData": {
-                    "revenue": 0,
-                    "imdb_id": "tt12816634",
-                    "release_date": "2021-04-04",
+                    "revenue": 76706000,
+                    "imdb_id": "tt0293429",
+                    "release_date": "2021-04-07",
                     "genres": [
                       {
-                        "name": "Animation",
-                        "id": 16
+                        "name": "Action",
+                        "id": 28
                       },
                       {
-                        "name": "Comedy",
-                        "id": 35
-                      },
-                      {
-                        "name": "Family",
-                        "id": 10751
+                        "name": "Fantasy",
+                        "id": 14
                       },
                       {
                         "name": "Adventure",
                         "id": 12
                       }
                     ],
-                    "vote_average": 7.8,
-                    "tagline": "",
-                    "title": "Miraculous World: Shanghai – The Legend of Ladydragon",
-                    "vote_count": 371,
-                    "poster_path": "/msI5a9TPnepx47JUb2vl88hb80R.jpg",
-                    "homepage": "",
+                    "vote_average": 7.6,
+                    "tagline": "Get over here.",
+                    "title": "Mortal Kombat",
+                    "vote_count": 2827,
+                    "poster_path": "/nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg",
+                    "homepage": "https://www.mortalkombatmovie.net",
                     "status": "Released"
                   },
                   "isCustomField": false,
@@ -2203,6 +2195,5 @@
     "policies": []
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "628f4c36dfdca56c4283eb6e_628f4c89dfdca56c4283eb79"
 }
