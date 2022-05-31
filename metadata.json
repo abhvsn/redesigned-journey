@@ -4,14 +4,12 @@
   "pageOrder": [
     "Page1",
     "Page2",
-    "Page3",
-    "Page4"
+    "Page3"
   ],
   "publishedPageOrder": [
     "Page1",
     "Page2",
-    "Page3",
-    "Page4"
+    "Page3"
   ],
   "publishedDefaultPageName": "Page3",
   "unpublishedDefaultPageName": "Page3",
